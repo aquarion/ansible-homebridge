@@ -11,3 +11,5 @@ homebridge_description: ""
 homebridge_accessories: []
 
 homebridge_platforms: []
+
+homebridge_home_dir: /var/lib/homebridge
