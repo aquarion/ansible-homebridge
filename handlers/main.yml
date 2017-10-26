@@ -1,3 +1,3 @@
 ---
 - name: reload homebridge
-  service: name=homebridge enabled=yes state=reloaded
+  service: name=homebridge enabled=yes state=restarted
