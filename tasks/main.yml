@@ -9,7 +9,7 @@
   tags: [homebridge, install]
 
 - name: install homebridge
-  npm: name=homebridge global=yes state=latest
+  npm: name=homebridge global=yes state=present
   notify: reload homebridge
   register: install_homebridge
   tags: [homebridge, install]
